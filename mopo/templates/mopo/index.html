@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Motivational Posters Index</title>
+</head>
+<body>
+{% if poster_list %}
+    <ul>
+    {% for quote in poster_list %}
+        <li><a href="{% url 'mopo:detail' quote.id %}">{{ quote.quote_text }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No Motivational Posters are available.</p>
+{% endif %}
+</body>
+</html>
