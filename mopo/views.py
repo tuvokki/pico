@@ -1,24 +1,37 @@
 from django.http import HttpResponseRedirect
 from django.urls import reverse
-
+from django.views import generic
 from django.shortcuts import get_object_or_404, render
+from django.utils import timezone
+
 from .models import Quote, Comment
 
 
-def index(request):
-    poster_list = Quote.objects.order_by('-pub_date')[:5]
-    context = {'poster_list': poster_list}
-    return render(request, 'mopo/index.html', context)
+class IndexView(generic.ListView):
+    template_name = 'mopo/index.html'
+    context_object_name = 'poster_list'
+
+    def get_queryset(self):
+        """Return the last five published quotes (not including those set to be
+        published in the future)."""
+        return Quote.objects.filter(
+            pub_date__lte=timezone.now()
+        ).order_by('-pub_date')[:5]
 
 
-def detail(request, quote_id):
-    quote = get_object_or_404(Quote, pk=quote_id)
-    return render(request, 'mopo/detail.html', {'quote': quote})
+class DetailView(generic.DetailView):
+    model = Quote
+    template_name = 'mopo/detail.html'
+
+    def get_queryset(self):
+        """
+        Excludes any questions that aren't published yet.
+        """
+        return Quote.objects.filter(pub_date__lte=timezone.now())
 
 
-def summary(request, quote_id):
-    quote = get_object_or_404(Quote, pk=quote_id)
-    return render(request, 'mopo/summary.html', {'quote': quote})
+class SummaryView(generic.DetailView):
+    model = Quote
 
 
 def comment(request, quote_id):
