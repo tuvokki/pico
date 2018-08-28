@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'website.apps.WebsiteConfig',
     'mopo.apps.MopoConfig',
+    'haha.apps.HahaConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

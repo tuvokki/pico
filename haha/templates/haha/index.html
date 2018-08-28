@@ -1,0 +1,10 @@
+Jokes
+{% if latest_jokes_list %}
+    <ul>
+        {% for joke in latest_jokes_list %}
+            <li><a href="{% url 'haha:detail' joke.id %}">{{ joke.title }}</a></li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>There are no jokes in the database.</p>
+{% endif %}

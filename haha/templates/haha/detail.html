@@ -1,0 +1,11 @@
+{% load static %}
+<h1>{{ joke.title }}</h1>
+<p>
+    {{ joke.body }}
+</p>
+<h3>
+    {{ joke.punchline }}
+</h3>
+
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
