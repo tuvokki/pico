@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="989e1fb1-9b15-4da5-a6f4-3f7a2292bd86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/haha/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/haha/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/haha/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/haha/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/haha/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/haha/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/haha/templates/haha/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/haha/templates/haha/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/haha/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/haha/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/haha/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/templates/website/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pico.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pico.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/haha/rpc_methods.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mopo/templates/mopo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mopo/templates/mopo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/haha/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/haha/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pico/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pico/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pico/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pico/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,36 +58,78 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="9" />
-          <entry key="py" value="19" />
+          <entry key="py" value="23" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="9" />
-          <entry key="Python" value="19" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="287" />
-          <entry key="py" value="780" />
+          <entry key="py" value="808" />
+          <entry key="txt" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="287" />
-          <entry key="Python" value="780" />
+          <entry key="PLAIN_TEXT" value="51" />
+          <entry key="Python" value="808" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.create.new" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/haha/templates/haha/detail.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pico/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="309">
+              <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pico/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#628#660#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/haha/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/haha/rpc_methods.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -148,6 +175,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -164,10 +196,8 @@
         <option value="$PROJECT_DIR$/mopo/tests.py" />
         <option value="$PROJECT_DIR$/mopo/urls.py" />
         <option value="$PROJECT_DIR$/website/urls.py" />
-        <option value="$PROJECT_DIR$/pico/settings.py" />
         <option value="$PROJECT_DIR$/haha/models.py" />
         <option value="$PROJECT_DIR$/pico/urls.py" />
-        <option value="$PROJECT_DIR$/haha/urls.py" />
         <option value="$PROJECT_DIR$/mopo/templates/mopo/index.html" />
         <option value="$PROJECT_DIR$/website/views.py" />
         <option value="$PROJECT_DIR$/website/templates/website/index.html" />
@@ -176,6 +206,9 @@
         <option value="$PROJECT_DIR$/mopo/admin.py" />
         <option value="$PROJECT_DIR$/haha/admin.py" />
         <option value="$PROJECT_DIR$/haha/templates/haha/detail.html" />
+        <option value="$PROJECT_DIR$/haha/rpc_methods.py" />
+        <option value="$PROJECT_DIR$/pico/settings.py" />
+        <option value="$PROJECT_DIR$/haha/urls.py" />
       </list>
     </option>
   </component>
@@ -205,42 +238,6 @@
               <item name="pico" type="b2602c69:ProjectViewProjectNode" />
               <item name="pico" type="462c0819:PsiDirectoryNode" />
               <item name="haha" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pico" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pico" type="462c0819:PsiDirectoryNode" />
-              <item name="haha" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pico" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pico" type="462c0819:PsiDirectoryNode" />
-              <item name="haha" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="haha" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pico" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pico" type="462c0819:PsiDirectoryNode" />
-              <item name="mopo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pico" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pico" type="462c0819:PsiDirectoryNode" />
-              <item name="mopo" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pico" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pico" type="462c0819:PsiDirectoryNode" />
-              <item name="mopo" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="mopo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pico" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pico" type="462c0819:PsiDirectoryNode" />
-              <item name="pico" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -330,6 +327,21 @@
       <option name="presentableId" value="Default" />
       <updated>1532773638032</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add haha modules for jokes">
+      <created>1535462205013</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535462205013</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Save requirements for pip">
+      <created>1535462392050</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1535462392050</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -345,9 +357,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.4997367" visible="true" weight="0.32978722" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.5002633" side_tool="true" visible="true" weight="0.32978722" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49921012" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.5007899" side_tool="true" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007899" side_tool="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3287234" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -356,6 +368,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add haha modules for jokes" />
+    <MESSAGE value="Save requirements for pip" />
+    <option name="LAST_COMMIT_MESSAGE" value="Save requirements for pip" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -487,13 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pico/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mopo/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
@@ -511,32 +521,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pico/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#628#660#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/haha/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -618,7 +608,44 @@
     <entry file="file://$PROJECT_DIR$/haha/templates/haha/detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pico/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#628#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haha/rpc_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pico/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haha/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

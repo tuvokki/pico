@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'website.apps.WebsiteConfig',
     'mopo.apps.MopoConfig',
     'haha.apps.HahaConfig',
+    'modernrpc',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -51,6 +52,10 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+]
+
+MODERNRPC_METHODS_MODULES = [
+    'haha.rpc_methods'
 ]
 
 ROOT_URLCONF = 'pico.urls'
