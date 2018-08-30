@@ -6,3 +6,6 @@ class Joke(models.Model):
     body = models.TextField()
     punchline = models.TextField()
     pub_date = models.DateTimeField('date_published')
+    
+    def __str__(self):
+        return self.title
