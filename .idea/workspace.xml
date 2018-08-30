@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="989e1fb1-9b15-4da5-a6f4-3f7a2292bd86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/haha/rpc_methods.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/haha/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/haha/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/haha/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/haha/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/haha/rpc_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/haha/rpc_methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/haha/templates/haha/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/haha/templates/haha/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/haha/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/haha/views.py" afterDir="false" />
+    </list>
+    <list id="6a3fbd1a-80e2-4424-ac96-c6d9798ce8ec" name="scss" comment="">
+      <change afterPath="$PROJECT_DIR$/mopo/static/mopo/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mopo/templates/mopo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mopo/templates/mopo/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pico/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pico/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,30 +63,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="9" />
-          <entry key="py" value="23" />
+          <entry key="css" value="1" />
+          <entry key="html" value="14" />
+          <entry key="py" value="33" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="9" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="14" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="23" />
+          <entry key="Python" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="287" />
-          <entry key="py" value="808" />
-          <entry key="txt" value="51" />
+          <entry key="css" value="14" />
+          <entry key="html" value="326" />
+          <entry key="py" value="997" />
+          <entry key="scss" value="3" />
+          <entry key="txt" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="287" />
-          <entry key="PLAIN_TEXT" value="51" />
-          <entry key="Python" value="808" />
+          <entry key="CSS" value="14" />
+          <entry key="HTML" value="326" />
+          <entry key="PLAIN_TEXT" value="88" />
+          <entry key="Python" value="997" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -93,31 +104,40 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pico/settings.py">
+        <entry file="file://$PROJECT_DIR$/mopo/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pico/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="527">
+              <caret line="36" selection-start-line="36" selection-end-line="39" />
               <folding>
-                <element signature="e#628#660#0" expanded="true" />
+                <element signature="e#0#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/haha/urls.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mopo/templates/mopo/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+            <state relative-caret-position="240">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mopo/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mopo/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -126,10 +146,41 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mopo/templates/mopo/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="80" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mopo/static/mopo/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pico/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="553">
+              <caret line="139" column="1" selection-start-line="139" selection-start-column="1" selection-end-line="139" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/haha/rpc_methods.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+                <marker date="1535467639807" expanded="true" signature="202:388" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,6 +209,8 @@
       <find>uestion</find>
       <find>polls</find>
       <find>quote</find>
+      <find>AppDirectoriesFinder</find>
+      <find>File</find>
     </findStrings>
     <replaceStrings>
       <replace>omment</replace>
@@ -191,24 +244,26 @@
         <option value="$PROJECT_DIR$/mopo/templates/mopo/summary.html" />
         <option value="$PROJECT_DIR$/mopo/templates/mopo/detail.html" />
         <option value="$PROJECT_DIR$/mopo/templates/mopo/quote_detail.html" />
-        <option value="$PROJECT_DIR$/mopo/models.py" />
         <option value="$PROJECT_DIR$/mopo/views.py" />
         <option value="$PROJECT_DIR$/mopo/tests.py" />
         <option value="$PROJECT_DIR$/mopo/urls.py" />
         <option value="$PROJECT_DIR$/website/urls.py" />
-        <option value="$PROJECT_DIR$/haha/models.py" />
         <option value="$PROJECT_DIR$/pico/urls.py" />
-        <option value="$PROJECT_DIR$/mopo/templates/mopo/index.html" />
         <option value="$PROJECT_DIR$/website/views.py" />
         <option value="$PROJECT_DIR$/website/templates/website/index.html" />
-        <option value="$PROJECT_DIR$/haha/views.py" />
-        <option value="$PROJECT_DIR$/haha/templates/haha/index.html" />
         <option value="$PROJECT_DIR$/mopo/admin.py" />
         <option value="$PROJECT_DIR$/haha/admin.py" />
         <option value="$PROJECT_DIR$/haha/templates/haha/detail.html" />
-        <option value="$PROJECT_DIR$/haha/rpc_methods.py" />
-        <option value="$PROJECT_DIR$/pico/settings.py" />
         <option value="$PROJECT_DIR$/haha/urls.py" />
+        <option value="$PROJECT_DIR$/haha/rpc_methods.py" />
+        <option value="$PROJECT_DIR$/haha/models.py" />
+        <option value="$PROJECT_DIR$/mopo/models.py" />
+        <option value="$PROJECT_DIR$/haha/views.py" />
+        <option value="$PROJECT_DIR$/haha/templates/haha/index.html" />
+        <option value="$PROJECT_DIR$/mopo/static/mopo/style.css" />
+        <option value="$PROJECT_DIR$/mopo/templates/mopo/index.html" />
+        <option value="$PROJECT_DIR$/mopo/static/mopo/style.scss" />
+        <option value="$PROJECT_DIR$/pico/settings.py" />
       </list>
     </option>
   </component>
@@ -226,7 +281,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,10 +293,60 @@
               <item name="pico" type="462c0819:PsiDirectoryNode" />
               <item name="haha" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pico" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pico" type="462c0819:PsiDirectoryNode" />
+              <item name="haha" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pico" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pico" type="462c0819:PsiDirectoryNode" />
+              <item name="haha" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="haha" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pico" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pico" type="462c0819:PsiDirectoryNode" />
+              <item name="mopo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pico" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pico" type="462c0819:PsiDirectoryNode" />
+              <item name="mopo" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pico" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pico" type="462c0819:PsiDirectoryNode" />
+              <item name="mopo" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="mopo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pico" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pico" type="462c0819:PsiDirectoryNode" />
+              <item name="mopo" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pico" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pico" type="462c0819:PsiDirectoryNode" />
+              <item name="mopo" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="mopo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pico" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pico" type="462c0819:PsiDirectoryNode" />
+              <item name="pico" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,6 +426,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="989e1fb1-9b15-4da5-a6f4-3f7a2292bd86" name="Default Changelist" comment="" />
+      <changelist id="6a3fbd1a-80e2-4424-ac96-c6d9798ce8ec" name="scss" comment="" />
       <created>1532773638032</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -341,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535462392050</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add modern rpc to haha (see: https://github.com/alorence/django-modern-rpc)">
+      <created>1535465894584</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1535465894584</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -357,8 +469,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49921012" visible="true" weight="0.32978722" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.5007899" side_tool="true" visible="true" weight="0.32978722" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.4986835" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.5013165" side_tool="true" visible="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007899" side_tool="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3287234" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -366,13 +478,18 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.scss" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add haha modules for jokes" />
     <MESSAGE value="Save requirements for pip" />
-    <option name="LAST_COMMIT_MESSAGE" value="Save requirements for pip" />
+    <MESSAGE value="Add modern rpc to haha (see: https://github.com/alorence/django-modern-rpc)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add modern rpc to haha (see: https://github.com/alorence/django-modern-rpc)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -467,13 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mopo/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mopo/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
@@ -481,13 +591,6 @@
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mopo/templates/mopo/quote_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -500,16 +603,6 @@
           <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mopo/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="36" selection-start-line="36" selection-end-line="39" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -527,39 +620,6 @@
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mopo/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/haha/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-            <marker date="1535461570037" expanded="true" signature="95:100" ph="..." />
-            <marker date="1535461570037" expanded="true" signature="345:350" ph="..." />
-            <marker date="1535461570037" expanded="true" signature="442:447" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/haha/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="9" />
-          <folding>
-            <marker date="1535460160888" expanded="true" signature="56:61" ph="..." />
           </folding>
         </state>
       </provider>
@@ -584,33 +644,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mopo/templates/mopo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/haha/templates/haha/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mopo/templates/mopo/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="12" lean-forward="true" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/haha/templates/haha/detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pico/urls.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -622,29 +664,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/haha/rpc_methods.py">
+    <entry file="file://$PROJECT_DIR$/haha/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="165">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haha/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <marker date="1535611135785" expanded="true" signature="56:61" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haha/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+            <marker date="1535612014658" expanded="true" signature="95:100" ph="..." />
+            <marker date="1535612014658" expanded="true" signature="346:351" ph="..." />
+            <marker date="1535612014658" expanded="true" signature="443:448" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haha/templates/haha/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mopo/templates/mopo/quote_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mopo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mopo/templates/mopo/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mopo/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mopo/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="36" selection-start-line="36" selection-end-line="39" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mopo/static/mopo/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mopo/templates/mopo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="80" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pico/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        <state relative-caret-position="553">
+          <caret line="139" column="1" selection-start-line="139" selection-start-column="1" selection-end-line="139" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/haha/urls.py">
+    <entry file="file://$PROJECT_DIR$/haha/rpc_methods.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
+            <marker date="1535467639807" expanded="true" signature="202:388" ph="..." />
           </folding>
         </state>
       </provider>

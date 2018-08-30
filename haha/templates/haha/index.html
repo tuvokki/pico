@@ -2,7 +2,7 @@ Jokes
 {% if latest_jokes_list %}
     <ul>
         {% for joke in latest_jokes_list %}
-            <li><a href="{% url 'haha:detail' joke.id %}">{{ joke.title }}</a></li>
+            <li>{{ forloop.counter }} <a href="{% url 'haha:detail' joke.id %}">{{ joke.title }}</a></li>
         {% endfor %}
     </ul>
 {% else %}
