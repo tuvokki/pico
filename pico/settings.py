@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'website.apps.WebsiteConfig',
     'mopo.apps.MopoConfig',
     'haha.apps.HahaConfig',
+    'frontpage.apps.FrontpageConfig',
     'modernrpc',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -83,6 +84,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'pico.wsgi.application'
 
+CORS_ORIGIN_ALLOW_ALL = True
 
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
