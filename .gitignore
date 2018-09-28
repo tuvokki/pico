@@ -101,8 +101,9 @@ venv.bak/
 /site
 
 # idea / pycharm
-**/.idea/workspace.xml
-**/.idea/tasks.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
 
 # mypy
 .mypy_cache/
