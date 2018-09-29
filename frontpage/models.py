@@ -5,10 +5,10 @@ from django.utils import timezone
 
 
 class Hero(models.Model):
-    image  = models.CharField(max_length=200)
+    image = models.FileField(upload_to='hero_images/')
     head  = models.CharField(max_length=200)
     sub  = models.CharField(max_length=200)
-    link  = models.CharField(max_length=200)
+    link  = models.URLField(max_length=200)
     linktext  = models.CharField(max_length=200)
     slot  = models.CharField(max_length=1000)
     pub_date = models.DateTimeField('date published')

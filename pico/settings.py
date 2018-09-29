@@ -61,7 +61,8 @@ MIDDLEWARE = [
 ]
 
 MODERNRPC_METHODS_MODULES = [
-    'haha.rpc_methods'
+    'haha.rpc_methods',
+    'frontpage.rpc_methods',
 ]
 
 ROOT_URLCONF = 'pico.urls'
@@ -144,3 +145,5 @@ STATICFILES_FINDERS = (
     # other finders..
     'static_precompiler.finders.StaticPrecompilerFinder',
 )
+MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads')
+MEDIA_URL = '/uploads/'
