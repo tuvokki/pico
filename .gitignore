@@ -111,3 +111,4 @@ venv.bak/
 *.scssc
 **/COMPILED/
 staticfiles/
+uploads/
