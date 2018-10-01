@@ -1,11 +1,10 @@
 from django.core import serializers
-from django.http import JsonResponse
 from modernrpc.core import rpc_method
-import json
 
 from .models import Hero
 
 fields = ('head', 'image', 'sub', 'link', 'linktext', 'slot')
+
 
 @rpc_method(name='fetchhero')
 def fetch_hero(id=1):
