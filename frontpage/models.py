@@ -5,7 +5,7 @@ from django.utils import timezone
 
 
 class Hero(models.Model):
-    image = models.FileField(upload_to='hero_images/')
+    image = models.ImageField(upload_to='hero_images/')
     head  = models.CharField(max_length=200)
     sub  = models.CharField(max_length=200)
     link  = models.URLField(max_length=200)

@@ -8,7 +8,7 @@ fields = ('head', 'image', 'sub', 'link', 'linktext', 'slot')
 
 @rpc_method(name='fetchhero')
 def fetch_hero(id=1):
-    return serializers.serialize('json', Hero.objects.filter(pk=1), fields=fields)
+    return serializers.serialize('json', Hero.objects.filter(pk=id), fields=fields)
 
 
 @rpc_method(name='randomhero')
